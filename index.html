@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pixel Art Maker</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h1>Pixel Art Maker</h1>
+    <h2>Choose Grid Size</h2>
+    
+    <form id="sizePicker">
+      
+      <!-- first input -->
+      <div id="first">
+      <p class="name">Grid Height</p>
+      <input type="number" id="inputHeight" name="height" min="1" placeholder=" rows">
+      </div>
+      
+        <!-- second input -->
+        <div id="second">
+      <p class="name">Grid Width</p> 
+      <input type="number" id="inputWidth" name="width" min="1"  placeholder=" columns">
+       </div>
+       <br><br>
+      <input type="submit" value="apply now">
+    </form>
+    
+   
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+     <h2>Pick A Color to paint the pixel</h2>
+     <input type="color" id="colorPicker" value="blue"><br><br>
+     Made by Mahmoud Mohsen..<br>
+     All rights reserved ⒸMahmoud Alsuty
+  <!-- Project -->
+  <script src="js/index.js"></script>
+</body>
+</html>
